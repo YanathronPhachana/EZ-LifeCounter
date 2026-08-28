@@ -29,7 +29,7 @@ class GameController extends ChangeNotifier {
   final Map<String, int> _playerDiceValues = {};
 
   String _diceType = 'd6'; // 'd6' or 'd20'
-  String _themeMode = 'light'; // 'gray', 'dark', 'light'
+  String _themeMode = 'dark'; // 'gray', 'dark', 'light'
   final List<HistoryEntry> _history = [];
 
   // Dice Mode states
